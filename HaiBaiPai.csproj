@@ -234,9 +234,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameMain\Loader.cs" />
-    <Compile Include="Assets\ResourceAccesser\PngLoader.cs" />
+    <Compile Include="Assets\BaseObject\AnswerFullName.cs" />
+    <Compile Include="Assets\BaseObject\CustomSprite.cs" />
+    <Compile Include="Assets\BaseObject\QuestionResource.cs" />
+    <Compile Include="Assets\BaseObject\QuestionResourcePath.cs" />
+    <Compile Include="Assets\BaseObject\QuestionResources.cs" />
+    <Compile Include="Assets\GameMain\AnswerField_OnValueChange.cs" />
+    <Compile Include="Assets\GameMain\GameControl.cs" />
+    <Compile Include="Assets\GameMain\Game_Load.cs" />
+    <Compile Include="Assets\BaseObject\Answer.cs" />
+    <Compile Include="Assets\Questions\Bai.cs" />
+    <Compile Include="Assets\Questions\Pai.cs" />
+    <Compile Include="Assets\Questions\Hai.cs" />
+    <Compile Include="Assets\BaseObject\Hint.cs" />
+    <Compile Include="Assets\BaseObject\IQuestion.cs" />
+    <Compile Include="Assets\BaseObject\JudgmentResultType.cs" />
+    <Compile Include="Assets\Questions\GeneralQuestionBase.cs" />
+    <Compile Include="Assets\Questions\QuestionFactory.cs" />
+    <Compile Include="Assets\ResourceAccesser\PngConvertToSprite.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
 </Project>
